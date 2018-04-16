@@ -1,0 +1,18 @@
+~kmammen/357/Project2/swc sds test test1 -c -w > mam.out
+./a.out sds test test1 -c -w > min.out
+diff mam.out min.out
+
+
+~kmammen/357/Project2/swc test2 test1 sds > mam.out
+./a.out test2 test1 sds > min.out
+diff mam.out min.out
+
+
+~kmammen/357/Project2/swc test3 test1 -c -q -l > mam.out
+./a.out test3 test1 -c -q -l> min.out
+diff mam.out min.out
+
+
+~kmammen/357/Project2/swc test4 test1 -w -l > mam.out
+./a.out test4 test1 -w -l> min.out
+diff mam.out min.out
